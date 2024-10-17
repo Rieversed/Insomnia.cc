@@ -19,6 +19,6 @@
     "%LOCALAPPDATA%\\Microsoft\\Windows\\WebCache": true
   },
   "move_to_trash": true,
-  "skip_errors": false,
+  "skip_errors": true,
   "clear_recycle_bin": false
 }
