@@ -1,0 +1,23 @@
+{
+  "directories": {
+    "%TEMP%": true,
+    "C:\\Windows\\Temp": true,
+    "%LOCALAPPDATA%\\Microsoft\\Windows\\INetCache": true,
+    "%WINDIR%\\Temp": true,
+    "C:\\Windows\\SoftwareDistribution\\Download": true,
+    "C:\\Windows\\Logs\\CBS": true,
+    "C:\\Windows\\Prefetch": true,
+    "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportQueue": true,
+    "C:\\Windows\\Installer": true,
+    "C:\\ProgramData\\Microsoft\\Windows Defender\\Scans\\History\\CacheManager": true,
+    "C:\\$Recycle.Bin": true,
+    "%USERPROFILE%\\AppData\\Local\\Temp": true,
+    "%SYSTEMROOT%\\Temp": true,
+    "%LOCALAPPDATA%\\Google\\Chrome\\User Data\\Default\\Cache": true,
+    "%LOCALAPPDATA%\\Microsoft\\Windows\\Explorer": true,
+    "%LOCALAPPDATA%\\Microsoft\\Windows\\INetCookies": true,
+    "%LOCALAPPDATA%\\Microsoft\\Windows\\WebCache": true
+  },
+  "move_to_trash": true,
+  "skip_errors": false
+}
