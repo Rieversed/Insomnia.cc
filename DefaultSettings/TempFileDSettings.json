@@ -18,7 +18,7 @@
     "%LOCALAPPDATA%\\Microsoft\\Windows\\INetCookies": true,
     "%LOCALAPPDATA%\\Microsoft\\Windows\\WebCache": true
   },
-  "move_to_trash": true,
   "skip_errors": true,
+  "move_to_trash": true,
   "clear_recycle_bin": false
 }
