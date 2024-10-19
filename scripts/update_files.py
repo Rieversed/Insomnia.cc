@@ -50,6 +50,13 @@ def update_files():
     """
     Update all files from the GitHub repository.
     """
+    # Create necessary directories
+    os.makedirs(ASSETS_DIR, exist_ok=True)
+    os.makedirs(DEFAULT_SETTINGS_DIR, exist_ok=True)
+    os.makedirs(USER_SETTINGS_DIR, exist_ok=True)
+    os.makedirs(SCRIPTS_DIR, exist_ok=True)
+    os.makedirs(TEMP_FILES_DELETER_DIR, exist_ok=True)
+
     # Update assets
     download_github_directory(GITHUB_REPO, GITHUB_BRANCH, "assets", ASSETS_DIR)
 
