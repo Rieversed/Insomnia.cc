@@ -9,6 +9,8 @@ ASSETS_DIR = os.path.join(ROOT_DIR, "assets")
 SETTINGS_DIR = os.path.join(ROOT_DIR, "settings")
 DEFAULT_SETTINGS_DIR = os.path.join(SETTINGS_DIR, "DefaultSettings")
 USER_SETTINGS_DIR = os.path.join(SETTINGS_DIR, "UserSettings")
+SCRIPTS_DIR = os.path.join(ROOT_DIR, "scripts")
+TEMP_FILES_DELETER_DIR = os.path.join(SCRIPTS_DIR, "TempFilesDeleter")
 
 # GitHub repository information
 GITHUB_REPO = "Rieversed/Insomnia.cc"
@@ -53,6 +55,9 @@ def update_files():
 
     # Update default settings
     download_github_directory(GITHUB_REPO, GITHUB_BRANCH, "DefaultSettings", DEFAULT_SETTINGS_DIR)
+
+    # Update TempFilesDeleter scripts
+    download_github_directory(GITHUB_REPO, GITHUB_BRANCH, "scripts/TempFilesDeleter", TEMP_FILES_DELETER_DIR)
 
     # Copy default settings to user settings if they don't exist
     for file in os.listdir(DEFAULT_SETTINGS_DIR):
